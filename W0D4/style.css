@@ -1,0 +1,16 @@
+.style {
+    background-color:  #3f3f3f;
+    
+
+}
+.block {
+    width: 500px;
+    height: 250px;  
+    background-color: white;
+    box-shadow: 0 0 10px black;
+}
+.picture {  
+    width: 500px;
+    height: 250px;  
+    
+}

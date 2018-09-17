@@ -1,0 +1,24 @@
+.content-text {
+   font-family: "Calibri", sans-serif;
+   font-size: 24px;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+h1 h2 {
+  font-family: "Courier New", sans-serif;
+}
+h1 {
+  text-align: center; 
+} 
+.text-red {
+   color: red;
+}
+.text-blue {
+   color: blue;
+}
+.text-size {
+    font-size: 32px;
+}
+.last-par {
+    text-align: right;
+}

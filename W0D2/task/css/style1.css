@@ -1,0 +1,20 @@
+body {
+  background-color: #474747;
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #eee;
+  width: 550px;
+
+  font-size: 17px;
+}
+
+button {
+  border: 3px solid red;
+
+  padding: 10px;
+}
