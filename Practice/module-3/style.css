@@ -53,7 +53,7 @@ ul {
 .breakfast {
     width: 1366px;
     margin: auto;
-    background: #030202;
+    background:#f6f6f6;
 }
 .section-text {
     width: 583px;
@@ -63,7 +63,7 @@ ul {
 h2 {
    font-family: "Montserrat-Medium", sans-serif;
    font-size: 50px;
-   color: rgba(23, 23, 23, 1);
+   color:#171717;
    text-align: left;
    margin-top: 100px;
    margin-bottom: 30px;
@@ -129,7 +129,7 @@ span {
 .info, .contact, .footer-menu a {
     font-family: 'Monito Sans', sans-serif;
     font-size: 15px;
-    color: rgba(188, 188, 188, 1);
+    color: #acacac;
 }
 .info-title {
     font-display: 'Montserrat', sans-serif;
