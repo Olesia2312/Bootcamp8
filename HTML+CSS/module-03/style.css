@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header, main {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+}
+nav, ul, li, a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+    font-size: 19px;
+    color: rgba(98, 98, 98, 255);
+}
+nav {
+    padding-top: 80px;
+}
+a:hover {
+    color: aqua;
+}
+.first {
+    margin-left: 121px;
+    margin-right: 103px;
+}
+.second {
+    margin-right: 95px;
+}
+article {
+    display: inline-block;
+    width: 420px;
+}
+.art-first {
+    margin-left: 56px;
+}
+img {
+    display: block;
+    width: 420px;
+    height: 280px;
+    margin-top: 120px;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: "Ubuntu-Light", sans-serif;
+    font-size: 19px;
+    color: rgba(180, 173, 158, 255);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+    font-size: 30px;
+    color: rgba(98, 98, 98, 255);
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+p {
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+    font-size: 19px;
+    color: rgba(98, 98, 98, 255);
+    text-align: left;
+}
+button {
+    width: 165px;
+    height: 60px;
+    background-color: white;
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+    font-size: 25px;
+    color: rgba(98, 98, 98, 255);
+    text-align: center;
+    border-color: rgba(98, 98, 98, 255);
+    margin-top: 55px;
+}
