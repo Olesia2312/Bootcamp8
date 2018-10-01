@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header, .nav-header, .services {
+    width: 940px;
+    display: flex;
+    margin: auto;
+}
+img {
+    display: block; 
+}
+.header {
+    padding-top: 50px;
+    margin-bottom: 130px;
+}
+.nav-header {
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-family: "Wisdom-Script", sans-serif;
+    font-size: 26px;
+    color: #fed136;
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav-menu {
+    display: flex;
+    width: 485px; 
+    justify-content: space-between; 
+    list-style: none;
+}
+.submenu-item {
+    font-family: "NexaSlab-Regular", sans-serif;
+    font-size: 14px;
+    color:#222222;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+.submenu-item:hover {
+    color:#fed136; 
+}
+/* main */
+.main-title {
+    font-family: "RobotoSlab-Bold", sans-serif;
+    font-size: 40px;
+    color: rgba(34, 34, 34, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main-text {
+    font-family: "DroidSerif-Italic", sans-serif;
+    font-size: 16px;
+    color: rgba(119, 119, 119, 255);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.services {
+    justify-content: space-between;
+}
+.services-menu {
+    text-align: center;
+    width: 290px;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+.text-title1, .text-title2, .text-title3 {
+    font-family: "RobotoSlab-Bold", sans-serif;
+    font-size: 18px;
+    color: rgba(34, 34, 34, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.text {
+    font-family: "RobotoSlab-Bold", sans-serif;
+    font-size: 14px;
+    color: rgba(119, 119, 119, 255);
+}
+.text-title1, .text-title2, .text-title3 {
+    position: relative;
+}
+.text-title1::before {
+    content: url(./img/Icon-Basket2.png);
+    position: absolute;
+    bottom: 60px;
+    left: 110px;
+}
+.text-title2::before {
+    content: url(./img/Icon-Laptop2.png);
+    position: absolute;
+    bottom: 60px;
+    left: 110px;
+}
+.text-title3::before {
+    content: url(./img/Icon-Locked2.png);
+    position: absolute;
+    bottom: 60px;
+    left: 110px;
+}
+/* end main */
+/* footer */
+.footer {
+    padding-top: 110px;
+    padding-bottom: 115px;
+    width: 100vw;
+    background: #222222 url(./img/map-Image.png) no-repeat right;
+}
+.footer-title {
+    font-family: "RobotoSlab-Bold", sans-serif;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-text {
+    font-family: "DroidSerif-Italic", sans-serif;
+    font-size: 16px;
+    color: rgba(119, 119, 119, 255);
+    text-align: center;
+    padding-bottom: 20px;
+}
+form {
+    width: 940px;
+    height: 310px;
+    margin: 75px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sub1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 455px;
+    height: 210px;
+}
+textarea {
+    width: 455px;
+    height: 210px;
+    border-radius: 5px;
+    border: none;
+}
+input {
+    width: 455px; 
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+input:last-child {
+    margin-bottom: -30px;
+}
+.text-indiv1, .text-indiv2, .text-indiv3, .text-indiv4 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 14px;
+    color: rgba(187, 187, 187, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.text-indiv4 {
+    resize: none;
+}
+.text-indiv1:valid {
+    outline: 5px solid green;
+}
+.text-indiv2:valid {
+    outline: 5px solid green;  
+}
+.text-indiv3:invalid {
+    outline: 5px solid red;
+}
+.text-indiv4:valid {
+    outline: 5px solid green;
+}
+button {
+    margin: 30px auto 0 auto;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px 47px 27px 47px;
+    background-color: #fed136;
+    border: none;
+    border-radius: 5px;
+}
