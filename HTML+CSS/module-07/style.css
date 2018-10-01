@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -158,7 +159,7 @@ input {
 input:last-child {
     margin-bottom: -30px;
 }
-.text-indiv1, .text-indiv2, .text-indiv3, .text-indiv4 {
+.text-indiv {
     font-family: "Montserrat-Bold", sans-serif;
     font-size: 14px;
     color: rgba(187, 187, 187, 255);
@@ -166,20 +167,14 @@ input:last-child {
     text-transform: uppercase;
     padding-left: 20px;
 }
-.text-indiv4 {
+/* .text-indiv {
     resize: none;
-}
-.text-indiv1:valid {
+} */
+.text-indiv:valid {
     outline: 5px solid green;
 }
-.text-indiv2:valid {
-    outline: 5px solid green;  
-}
-.text-indiv3:invalid {
+.text-indiv:invalid {
     outline: 5px solid red;
-}
-.text-indiv4:valid {
-    outline: 5px solid green;
 }
 button {
     margin: 30px auto 0 auto;
