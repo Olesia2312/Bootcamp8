@@ -1,4 +1,32 @@
 
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../module-07/fonts/montserrat-v12-latin-regular.woff") format("woff"),
+         url("../module-07/fonts/montserrat-v12-latin-regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../module-07/fonts/roboto-v18-latin-regular.woff") format("woff"),
+         url("../module-07/fonts/roboto-v18-latin-regular.woff2") format("woff2");
+}
+@font-face {  
+    font-family: "Indie Flower";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../module-07/fonts/indie-flower-v9-latin-regular.woff") format("woff"),
+         url("../module-07/fonts/indie-flower-v9-latin-regular.woff2") format("woff2");
+}
+@font-face {  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../module-07/fonts/poppins-v5-latin-regular.woff") format("woff"),
+         url("../module-07/fonts/poppins-v5-latin-regular.woff2") format("woff2");
+}
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +49,7 @@ img {
     justify-content: space-between;
 }
 .logo {
-    font-family: "Wisdom-Script", sans-serif;
+    font-family: "Indie Flower", sans-serif;
     font-size: 26px;
     color: #fed136;
     font-weight: 700;
@@ -56,7 +84,7 @@ img {
     padding-bottom: 20px;
 }
 .main-text {
-    font-family: "DroidSerif-Italic", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     color: rgba(119, 119, 119, 255);
     text-align: center;
@@ -105,15 +133,13 @@ img {
     bottom: 60px;
     left: 110px;
 }
-/* end main */
-/* footer */
-.footer {
+.contact {
     padding-top: 110px;
     padding-bottom: 115px;
     width: 100vw;
     background: #222222 url(./img/map-Image.png) no-repeat right;
 }
-.footer-title {
+.contact-title {
     font-family: "RobotoSlab-Bold", sans-serif;
     font-size: 40px;
     color: rgba(255, 255, 255, 255);
@@ -122,8 +148,8 @@ img {
     text-align: center;
     padding-bottom: 20px;
 }
-.footer-text {
-    font-family: "DroidSerif-Italic", sans-serif;
+.contact-text {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: rgba(119, 119, 119, 255);
     text-align: center;
@@ -159,22 +185,20 @@ input {
 input:last-child {
     margin-bottom: -30px;
 }
-.text-indiv {
+.text-indiv, .text-indiv1 {
     font-family: "Montserrat-Bold", sans-serif;
     font-size: 14px;
     color: rgba(187, 187, 187, 255);
     font-weight: 700;
     text-transform: uppercase;
     padding-left: 20px;
-}
-/* .text-indiv {
     resize: none;
-} */
+}
 .text-indiv:valid {
-    outline: 5px solid green;
+    outline: 2px solid green;
 }
 .text-indiv:invalid {
-    outline: 5px solid red;
+    outline: 2px solid red;
 }
 button {
     margin: 30px auto 0 auto;
