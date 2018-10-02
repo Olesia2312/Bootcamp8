@@ -1,0 +1,26 @@
+@import url(../css/header.css);
+@import url(../css/main.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 320px;
+    padding: 0 10px;
+    margin: auto;
+}
+@media (min-widht 768px) {
+    .container {
+        width: 768px;
+    }
+}
+@media (min-widht 1440px) {
+    .container {
+        width: 1440px;
+    }
+}
