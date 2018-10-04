@@ -2,31 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <ul>
-            <li>
-                <a href="#">Log in</a>
-            </li>
-            <li>
-                <a href="#">Sign up</a>
-            </li>
-        </ul>
-        <a href="#">URLAUBSGLÜCK</a>
-        <section>
+    <header class="header">
+        <nav class="menu-nav">
+            <ul class="menu">
+               <li class="submenu">
+                  <a class="submenu-link" href="#">Log in</a>
+               </li>
+               <li class="submenu">
+                  <a class="submenu-link" href="#">Sign up</a>
+               </li>
+           </ul>
+           <a class="logo" href="#">URLAUBSGLÜCK</a>
+        </nav>
+        <section class="section-header">
             <h1>Share your holiday dreams</h1>
-            <p>And find the perfect partner to fullfill it</p>
-            <button>Find your holiday partner</button>
+            <p class="text-header">And find the perfect partner to fullfill it</p>
+            <button class="button-header">Find your holiday partner</button>
         </section>
     </header>
-    <main>
+    <main class="main">
         <h2>Meet a partner for your best holiday</h2>
+        <section class="section-main">
+            <div class="team">
+                <div class="team-photo1">
+                   <img class="team-photo" src="./img/Layer 6@1X.png" alt="Photo">
+                </div>
+                <p class="name">Bradley Hunter</p>
+                <p class="info">Based in Chicago. I love playing tennis and loud music.</p>
+            </div>
+            <div class="team">
+                <div class="team-photo2">
+                  <img class="team-photo" src="./img/Layer 8@1X.png" alt="Photo">
+                </div>
+                  <p class="name">Lucas Marsha</p>
+                <p class="info">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+            </div>
+            <div class="team">
+                <div class="team-photo3">
+                  <img class="team-photo" src="./img/Layer 7@1X.png" alt="Photo">
+                </div>
+                  <p class="name">Heather Walker</p>
+                <p class="info">I'm a happy person that loves cats and climbing on mountains.</p>
+           </div>
+            <div class="team">
+                <div class="team-photo4">
+                  <img class="team-photo" src="./img/Layer 9@1X.png" alt="Photo">
+                </div>
+                  <p class="name">Bradley Hunter</p>  
+                <p class="info">Based in Chicago. I love playing tennis and loud music.</p>
+           </div>
+           <button class="button-main">See other partners</button>
+        </section>
     </main>
-    
 </body>
 </html>
