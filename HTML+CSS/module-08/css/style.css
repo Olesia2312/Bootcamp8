@@ -16,7 +16,7 @@ img {
     background: center url(../img/bg-s.png) no-repeat;  
 }
 .menu {
-    width: 56.25%;
+    width: 180px;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -38,7 +38,7 @@ img {
     border-radius: 25px;
     padding: 10px 18px;
 }
-.logo {
+h1, .logo {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-decoration: none;
@@ -47,7 +47,7 @@ img {
     text-transform: uppercase;
     font-weight: 700;
 }
-h1 {
+h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     color: rgba(255, 255, 255, 255);
@@ -67,6 +67,7 @@ h1 {
     padding-bottom: 19px;
 }
 .button-header {
+    display: block;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: rgba(255, 255, 255, 255);
@@ -81,7 +82,7 @@ h1 {
 .section-header {
     padding-bottom: 140px;
 }
-h2 {
+h3 {
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     text-align: center;
@@ -92,8 +93,8 @@ h2 {
 .section-main {
     padding-bottom: 60px;
 }
-.team {
-    width: 68.75%;
+.team1, .team2, .team3, .team4 {
+    width: 205px;
     margin: auto;
 }
 .team-photo {
@@ -104,31 +105,31 @@ h2 {
     position: relative;
 }
 .team-photo1:after {
-    content: url(../img/shape-tv.png);
+    content: url(../img/Shape-tv.png);
     display: block;
     position: absolute;
-    left: 130px;
+    left: 125px;
     top: 89px;
 }
 .team-photo2:after {
-    content: url(../img/shape-battle.png);
+    content: url(../img/Shape-battle.png);
     display: block;
     position: absolute;
-    left: 130px;
+    left: 125px;
     top: 89px;
 }
 .team-photo3:after {
-    content: url(../img/shape-cup.png);
+    content: url(../img/Shape-cup.png);
     display: block;
     position: absolute;
-    left: 130px;
+    left: 125px;
     top: 89px;
 }
 .team-photo4:after {
-    content: url(../img/shape-plane.png);
+    content: url(../img/Shape-plane.png);
     display: block;
     position: absolute;
-    left: 130px;
+    left: 125px;
     top: 89px;
 }
 .name {
@@ -158,23 +159,39 @@ h2 {
     padding: 14px 74px;
     margin: auto;
     text-align: center;
+    display: block;
 }
 
 @media (min-width: 768px) {
     .header, .main {
         width: 768px;
+        margin: 0 auto;
     }
     .header {
         background: url(../img/bg-m.png); 
     }
-    .section-main {
+    .menu {
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    h1, .logo {
+        display: flex;
+        text-align: left;
+    }
+    .common {
+        width: 492px;
         display: flex;
         flex-wrap: wrap;
-        /* width: 64.0625%; */
         margin: auto;
     }
-    .team {
-        width: 30,7292%;
+    .team3 {
+        order: 1;
+    }
+    .team2 {
+        order: 2;
+    }
+    .team4 {
+        order: 3;
     }
 }
 @media (min-width: 1440px) {
@@ -184,13 +201,8 @@ h2 {
     .header {
         background: url(../img/bg-l.jpg); 
     }
-    .section-main {
-        /* display: flex; */
-        justify-content: space-between;
-        width: 65,2777%;
-        /* margin: auto; */
-    }
-    .team {
-        /* width: 50%; */
+    .common {
+        width: 942px;
+        justify-content: space-between
     }
 }
