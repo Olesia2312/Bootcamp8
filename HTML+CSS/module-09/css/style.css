@@ -61,36 +61,43 @@ img {
     color: rgba(51, 51, 51, 255);
     padding-bottom: 30px;
 }
+.team-card-image {
+    border-radius: 50%;
+}   
+.team-card {
+    width: 236px;
+    margin: 0 auto;
+}
+.team-card-image1, .team-card-image2, .team-card-image3, .team-card-image4 {
+    position: relative;
+}
 .team-card-image1:after {
     content: url(../img/Shape-tv.png);
     display: block;
     position: absolute;
-    left: 160px;
+    left: 140px;
     top: 85px;
 }
 .team-card-image2:after {
     content: url(../img/Shape-battle.png);
     display: block;
     position: absolute;
-    left: 160px;
+    left: 140px;
     top: 85px;
 }
 .team-card-image3:after {
     content: url(../img/Shape-cup.png);
     display: block;
     position: absolute;
-    left: 160px;
+    left: 140px;
     top: 85px;
 }
 .team-card-image4:after {
     content: url(../img/Shape-plane.png);
     display: block;
     position: absolute;
-    left: 160px;
+    left: 140px;
     top: 85px;
-}
-.team-card-image {
-    border-radius: 50%;
 }
 .team-card-name {
     font-family: "Montserrat", sans-serif;
@@ -132,11 +139,8 @@ img {
     .logo {
         margin: 0 auto;
     }
-    .masthead-div {
-        margin-bottom: 160px;
-        width: 660px;
-        display: flex;
-        justify-content: space-between;
+    .header-title {
+        margin-top: 160px;
     }
 }
 @media (min-width:1440px) {
