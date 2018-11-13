@@ -40,7 +40,40 @@
     cheese: 40,
   };
   function Cashier(name, productDatabase) {
-    // 🔔 не забывайте о this при обращении к свойствам и методам будущего объекта
+    this.name = name;
+    this.productDatabase = productDatabase;
+    this.customerMoney = 0;
+    this.getCustomerMoney = function(value) {
+      this.customerMoney = value;
+    };
+    this.countTotalPrice = function(order) {
+          let arr = [];
+          for (let el in order) {
+          let sum = order[el] * this.productDatabase[el]; 
+          arr.push(sum);
+          };
+            let result = arr.reduce(function(acc, el) {
+              return acc + el;
+            }, 0);   
+          return result;          
+    };
+    this.countChange = function(totalPrice) {
+      
+      if (totalPrice < this.customerMoney) {
+        return this.customerMoney - totalPrice;
+      } else if (totalPrice > this.customerMoney) {
+        return null;
+      } 
+    };
+    this.onSuccess = function(change) {
+      console.log(`Спасибо за покупку, ваша сдача ${change}!`);
+    };
+    this.onError = function() {
+      console.log(`Очень жаль, вам не хватает денег на покупки`);
+    };
+    this.reset = function() {
+      this.customerMoney = 0;
+    };
   }
   
   /* Заказ пользователя хранится в виде объекта следующего формата. "имя-продукта":"количество-единиц" */
@@ -73,7 +106,7 @@
   console.log(mango.customerMoney); // 300
   
   // Вызываем countChange для подсчета сдачи
-  const change = mango.countChange();
+  const change = mango.countChange(totalPrice);
   
   // Проверяем что нам вернул countChange
   console.log(change); // 190
