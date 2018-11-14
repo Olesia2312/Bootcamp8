@@ -2,9 +2,9 @@
 const adminLogin = 'admin';
 const adminPassword = 'm4ngo1zh4ackz0r';
 let login = prompt('Пожалуйста, введите логин');
-let cancelLogin = ('Отменено пользователем!');
+const cancelLogin = ('Отменено пользователем!');
 let anotherLogin = ('Доступ запрещен!');
-let cancelPassword = ('Отменено пользователем!');
+const cancelPassword = ('Отменено пользователем!');
 let anotherPassword = ('Доступ запрещен!');
 let rightPassword = ('Добро пожаловать!');
 if (login === null) {

@@ -10,4 +10,4 @@ do {
 for (let el of numbers) {
     total += Number(el);
 }
-alert(`Общая сумма чисел равна ${total}`);
+alert(`Общая сумма чисел равна ${total}`); 
