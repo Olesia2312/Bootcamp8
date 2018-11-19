@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.image-gallery {
+    width: 1280px;
+    margin: 0 auto;
+}
+.big {
+    display: block;
+    width: 1280px;
+    height: auto;
+    border: 3px solid lightslategrey;
+    margin: 0 auto;
+}
+.small {
+    display: block;
+    width: 380px;
+    height: 210px;
+    border: 3px solid lightslategrey;
+    margin: auto;
+}
+.small:hover {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(90deg, #bdc3c7 50%, #2c3e50, 100%); 
+    opacity: 0.5;
+}
+.fullview {
+    width: 1280px;
+    height: auto;
+    border: 5px;
+}
+.preview {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+}
